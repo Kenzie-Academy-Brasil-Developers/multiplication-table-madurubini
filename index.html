@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabela de Multiplicação</title>
+  </head>
+
+  <body>
+    <h1>Tabela de Multiplicação</h1>
+    <h2>Acesse o console para encontrar a solução :)</h2>
+    <script>
+      function multiplica(n) {
+          let x = [];
+          for(let count = 0; count <= n; count++){
+              let y = [];
+                for (let i = 0; i <= n; i++) {
+                    y.push(i*count) ;                               
+                }
+                x.push(y)
+           }
+        
+        console.table(x);
+      }
+    </script>
+  </body>
+</html>
